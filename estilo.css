@@ -1,3 +1,31 @@
-footer{
-background-color: rgba(0, 255, 187, 0.608);
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+:root{
+   --cor-primaria:#000000;
+   --cor-segundaria:#CF0F47;
+   --cor-tercearia:#FF9D23;
+
+
+}
+body{
+font-family: "Merriweather", serif;
+background-color: var(--cor-primaria);
+color: rgb(255, 255, 255);
+
+}
+
+
+h2,h2,h5{
+ color: var(--cor-segundaria);
+ font-weight: 700;
+}
+footer a{
+color: var(--cor-segundaria);
+
+}
+
+
+footer a:hover{
+color: var(--cor-tercearia);
+
 }
